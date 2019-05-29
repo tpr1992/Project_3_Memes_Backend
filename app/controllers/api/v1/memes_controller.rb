@@ -1,4 +1,4 @@
-class MemesController < ApplicationController
+class Api::V1::MemesController < ApplicationController
 
   def index
     @memes = Meme.all
@@ -9,5 +9,5 @@ class MemesController < ApplicationController
     @meme = Meme.find(params[:id])
     render json: @meme
   end
-  
+
 end
