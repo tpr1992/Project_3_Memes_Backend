@@ -1,3 +1,3 @@
 class MemeSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :image_path
 end

@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2019_05_28_152501) do
   end
 
   create_table "memes", force: :cascade do |t|
-    t.string "image_path"
+    t.text "image_path"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

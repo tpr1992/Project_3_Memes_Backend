@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Meme.destroy_all
+
+Meme.create(image_path: "https://vignette.wikia.nocookie.net/joke-battles/images/6/60/Ainsley-Harriott.jpg")
+Meme.create(image_path: 'https://imgflip.com/s/meme/Ancient-Aliens.jpg')
+Meme.create(image_path: 'http://i.imgur.com/DTZgsWl.jpg')
